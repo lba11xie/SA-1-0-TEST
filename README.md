@@ -1,4 +1,24 @@
-This is a test app , I created this app using android studio, the main version of this app uses JAVA
-the sentiment analysis app gets text as an input and gives output in detailed bar chart displaying various sentiments
-the sentiment analysis ,the app uses a shiny pakage from CRAN repository, it uses shiny API to respond and process the given request,
-thank you for reading.
+# **SA-1-0-TEST**  
+
+## **Overview**  
+SA-1-0-TEST is a sentiment analysis web app that processes text input and provides real-time emotional analysis. It integrates an R-based Shiny API with an Android front-end for seamless user experience.  
+
+## **Features**  
+- Real-time sentiment visualization  
+- WebView integration for mobile apps  
+- Supports multiple languages  
+
+## **Tech Stack**  
+- **Frontend**: Android Studio (WebView integration)  
+- **Backend**: R Shiny API  
+- **Database**: PostgreSQL (via Neon.tech)  
+
+## **Installation & Setup**  
+### **Prerequisites**  
+- R with required packages (`shiny`, `httr`, etc.)  
+- Android Studio  
+
+### **Setup Instructions**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/lba11xie/SA-1-0-TEST.git
